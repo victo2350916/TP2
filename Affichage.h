@@ -28,11 +28,11 @@ public:
 	/// <summary>
 	/// Affiche les liens entre les piece du labyrithe.
 	/// </summary>
-	void afficherLiens() override;
+	void afficherLiens();
 
 	/// <summary>
 	/// Affiche les étapes nécéssaire pour se rendre à la fin du labyrinthe.
 	/// </summary>
-	void afficherSolution() override;
+	void afficherSolution();
 };
 

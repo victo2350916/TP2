@@ -45,13 +45,13 @@ public:
 	/// Charge les information d'un fichier en mémoire.
 	/// </summary>
 	/// <param name="filePath"> Chemin vers le fichier. </param>
-	void lireLabyrinthe(const std::string filePath) override;
+	void lireLabyrinthe(const std::string filePath);
 
 	/// <summary>
 	/// Enregistre les informations du fichier en mémoire sur le disque dur de l'ordinateur.
 	/// </summary>
 	/// <param name="filePath"> Chemin vers l'emplacement de sauvegarde. </param>
-	void ecrireSolution(const std::string filePath) override;
+	void ecrireSolution(const std::string filePath);
 
 	/// <summary>
 	/// Retourne les pièces du labyrinthe.
